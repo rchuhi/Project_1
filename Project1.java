@@ -10,7 +10,7 @@ public class Project1 {
 
 		for(int i=1; i<randomNum.length;++i) {
 			//Generates random numbers between 1 and 30
-			randomNum[i]=(int)(Math.random()*30);	
+			randomNum[i]=(int)(Math.random()*30+1);	
 	
 			for(int j=1; j<i;++j) {
 				if(randomNum[i]==randomNum[j]) {
